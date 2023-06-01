@@ -1,0 +1,38 @@
+.game-container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  border: 10px groove #8f0606;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #000;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #e2e2e2;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.card.flipped {
+  background-color: #1466b8;
+  color: #fff;
+}
+
+.card.matched {
+  background-color: #27ae60;
+  color: #453131;
+}
