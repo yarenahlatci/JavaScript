@@ -70,4 +70,7 @@ document.getElementById("stil-listesi").addEventListener("change", function () {
   document.body.className = secilenStil;
 });
 
+// Imla düzeltme özelliğini devre dışı bırakma
+document.getElementById("not-alani").setAttribute("spellcheck", "false");
+
 document.getElementById("kaydet-btn").addEventListener("click", notuKaydet);
