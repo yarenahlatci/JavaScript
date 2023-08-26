@@ -1,0 +1,77 @@
+
+    .soru {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .question-box {
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .question-form {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form-check-input[type="radio"]:checked + .form-check-label::before {
+            border-color: #dc3545;
+            background-color: #dc3545;
+        }
+        .btn-light {
+            background-color: #dc3545;
+            color: #fff;
+            border-color: #dc3545;
+        }
+        .btn-light:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+            color: white;
+        }
+        .result-text {
+            color: #273c75;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: transform 0.3s;
+        }
+        .result-text:hover {
+            transform: scale(1.1);
+        }
+        .yuzde{
+            color: #273c75;
+        }
+        .animasyon-header {
+            background: linear-gradient(135deg, #f06, #dc3545);
+            animation: gradientAnimasyon 8s infinite alternate;
+        }
+        @keyframes gradientAnimasyon {
+            0% {
+                background: linear-gradient(135deg, #f06, #dc3545);
+                
+            }
+            100% {
+                background: linear-gradient(135deg, #dc3545, #f06);
+            }
+        }
+        .header-content {
+            padding: 30px;
+            color: white;
+            animation: textGradientAnimasyon 5s infinite alternate;
+        }
+        @keyframes textGradientAnimasyon {
+            0% {
+                color: white;
+            }
+            100% {
+                color: #dc3545;
+                
+            }
+        }
+        .header-content h2 {
+            margin-bottom: 10px;
+        }
+        .header-content p {
+            margin-bottom: 0; /* Important! */
+        }
+        
+        
