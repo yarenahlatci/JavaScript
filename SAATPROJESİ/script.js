@@ -5,9 +5,8 @@ function SaatiCalistir() {
   var hh = suankiSaat.getHours();
   var mm = suankiSaat.getMinutes();
   var ss = suankiSaat.getSeconds();
-  document.getElementById("saat").innterHTML = new Date()
-    .toTimeString()
-    .split(" ")[0];
+  document.getElementById("saat").innerHTML =
+    Formatla(hh) + ":" + Formatla(mm) + ":" + Formatla(ss);
 }
 
 function Formatla(text) {
