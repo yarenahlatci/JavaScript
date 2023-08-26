@@ -1,0 +1,120 @@
+/* Soru Formu Stili */
+  .question-form {
+    background-color: #6c757d;
+    padding: 20px;
+    border-radius: 8px;
+    animation: questionFormAnimation 1s;
+  }
+  
+  @keyframes questionFormAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Radio Buton Stilleri */
+  .form-check-input:checked + .form-check-label::before {
+    border-color: #17a2b8;
+    background-color: #17a2b8;
+  }
+  
+  /* Gönder Buton Stili */
+  .btn-light {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-light:hover {
+    background-color: #17a2b8;
+  }
+  
+  /* Başlık Stili */
+#header {
+    background-color: #007bff;
+    animation: headerAnimation 2s infinite alternate;
+  }
+  
+  @keyframes headerAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-5px);
+    }
+  }
+  
+  #header h2 {
+    color: #dc3545;
+    font-size: 36px;
+    font-weight: bold;
+    animation: headerTextAnimation 1s;
+  }
+  
+  @keyframes headerTextAnimation {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Sonuç Bölümü Stili */
+.result {
+    border-top: 1px solid #ddd;
+    animation: resultAnimation 1s;
+  }
+  
+  @keyframes resultAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .result p {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  #successMessage {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #dc3545;
+    animation: successMessageAnimation 1s 2s; /* 2 saniye gecikmeli animasyon */
+    display: none;
+  }
+  
+  @keyframes successMessageAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
