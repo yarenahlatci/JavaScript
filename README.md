@@ -13,5 +13,5 @@ https://github.com/yarenahlatci/JavaScript/assets/127660751/766f0e08-c5d0-4b3b-a
 https://github.com/yarenahlatci/JavaScript/assets/127660751/e8a6fd61-6721-4740-8be3-a5d8e545830d
 
 ### TODO LİST
-https://github.com/yarenahlatci/JavaScript/assets/127660751/a8ad1f93-5591-4865-ae49-6b0d8ea53272
+https://github.com/yarenahlatci/JavaScript/assets/127660751/e86decb1-0cf2-4d46-a35e-7e793f54c406
 
