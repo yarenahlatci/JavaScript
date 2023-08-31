@@ -1,0 +1,96 @@
+.card {
+  height: 120px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#addNew {
+  margin-right: 10px;
+}
+
+#color {
+  margin-right: 10px;
+}
+
+#addColorButton {
+  margin-bottom: 10px;
+}
+
+.colorCard {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.display-6 {
+  text-align: center;
+  letter-spacing: 5px;
+  background-image: linear-gradient(
+    -45deg,
+    #ff5733,
+    #ffbd33,
+    #33ff8c,
+    #33a3ff,
+    #a333ff,
+    #ff3396
+  );
+
+  color: white;
+  animation: gradientAnimation 10s infinite linear alternate;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.btn-animasyon {
+  background-color: #273c75; /* Hover durumunda arka plan rengi */
+  color: hsl(35, 77%, 62%);
+  padding: 10px 20px; /* Buton iç boşlukları */
+  border: none; /* Kenarlık olmadan görünüm */
+  border-radius: 5px; /* Yuvarlatılmış köşeler */
+  cursor: pointer; /* Cursor'u işaretçi olarak ayarla */
+  transition: background-color 0.3s, transform 0.2s;
+  letter-spacing: 3px;
+}
+
+.btn-animasyon:hover {
+  background-color: #ff3396; /* Buton arka plan rengi */
+  color: white; /* Buton metin rengi */
+  transform: scale(1.05); /* Butonun hafifçe büyümesi */
+  letter-spacing: 3px;
+}
